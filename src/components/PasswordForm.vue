@@ -5,7 +5,7 @@
      <div v-if="minLength" class="notification is-small is-danger ">Password must contain at least 8 characters!</div>
      <div v-if="validation === false" class="notification is-small is-danger ">Passwords do not match!</div>
     <div v-if="validation === true" class="notification is-small is-success ">Successfully register!</div>
-{{ strengthPassword }}
+
     <section class="container"> 
     <b-field label="Password">
             <b-input @keydown.native.space.prevent 
